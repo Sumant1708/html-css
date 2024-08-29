@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>UI</title>
+    <style>
+      p{
+        font-size: 30px;
+        margin-left: 10px;
+        font-weight: bold;
+        font-family: arial;
+      }
+      .first-name,.last-name{
+        height: 30px;
+        width: 120px;
+        font-family: arial;
+        font-size: 15px;
+        border-radius: 7px;
+        padding-left: 10px;
+        border-style: solid;
+        outline: none;
+        border-color: rgba(128, 128, 128, 0.365);
+      }
+      
+      .email,.password{
+        font-family: arial;
+        height: 30px;
+        width: 260px;
+        font-size: 15px;
+        margin-top: 10px;
+        padding-left: 10px;
+        outline: none;
+        border-radius: 7px;
+        border-color: rgba(128, 128, 128, 0.365);
+        border-style: solid;
+        display: block;
+      }
+      .sign-up{
+        height: 40px;
+        width: 274px;
+        font-family: arial;
+        margin-top: 10px;
+        border-radius: 7px;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        border: none;
+        background-color: rgb(44, 125, 224);
+        transition: 0.15s;
+        cursor: pointer;
+      }
+      .sign-up:hover{
+        opacity: 0.8;
+        color: white;
+      }
+      .sign-up:active{
+        opacity: 0.7;
+      }
+
+      .location,.destination{
+        display: block;
+        height: 30px;
+        width: 265px;
+        font-family: arial;
+        color: black;
+        border-radius: 2px;
+        margin-bottom: 5px;
+        padding-left: 20px;
+        font-weight: bold;
+        background-color: rgb(235, 234, 234);
+        border: none;
+        outline: none;
+      } 
+      .request-button{
+        margin-top: 14px;
+        height: 30px;
+        width: 120px;
+        font-family: arial;
+        background-color: black;
+        color: white;
+        border-style: solid;
+        border-radius: 2px;
+        outline: none;
+        cursor: pointer;
+        transition: 0.15s;
+      }
+      .request-button:hover{
+        opacity: 0.8;
+        color: white;
+      }
+      .request-button:active{
+        opacity: 0.7;
+      }
+      .schedule-button{
+        margin: 8px;
+        height: 30px;
+        width: 153px;
+        font-family: arial;
+        background-color: rgba(128, 128, 128, 0.365);
+        color: black;
+        font-weight: bold;
+        border-radius: 2px;
+        border-width: 0px;
+        border-style: solid;
+        cursor: pointer;
+        transition: 0.15s;
+        border-radius: 2px;
+      }
+      .schedule-button:hover{
+        background-color: rgba(98, 98, 98, 0.365);
+      }
+      .schedule-button:active{
+        background-color: rgba(148, 148, 148, 0.365);;;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Hello!</p>
+    <input class="first-name" type="text" name="First-name" placeholder="First name">
+    <input class="last-name" type="text" name="Last-name" placeholder="Last name">
+    <input class="email" type="text" name="email" placeholder="Email">
+    <input class="password" type="password" name="password" placeholder="">
+    <button class="sign-up">Sign Up</button>
+    
+    <p>Request a ride now</p>
+    <input class="location" type="text" name="location" placeholder="Enter pickup location">
+    <input class="destination" type="text" name="destination" placeholder="Enter destination">
+    <button class="request-button">Request now</button>
+    <button class="schedule-button">Schedule for later</button>
+
+  </body>
+</html>
